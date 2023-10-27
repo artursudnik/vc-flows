@@ -333,20 +333,6 @@ export const presentationDefinitionCarOwnership = {
                         },
                       },
                     },
-                    {
-                      path: ['$.issuer'],
-                      filter: {
-                        $schema: 'http://json-schema.org/draft-07/schema#',
-                        const: 'did:example:dso',
-                      },
-                    },
-                    {
-                      path: ['$.issuanceDate'],
-                      filter: {
-                        $schema: 'http://json-schema.org/draft-07/schema#',
-                        const: '2023-05-14T12:55:30Z',
-                      },
-                    },
                   ],
                 },
               },
