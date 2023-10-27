@@ -238,7 +238,6 @@ export const presentationDefinitionCarOwnership = {
                               'applicationLaw',
                               'compensationOfTheOffer',
                               'contractedItem',
-                              'counterParty',
                               'party1',
                               'party2',
                               'expressionOfTheOffer',
