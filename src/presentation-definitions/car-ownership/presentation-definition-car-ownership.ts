@@ -223,7 +223,7 @@ export const presentationDefinitionCarOwnership = {
                       filter: {
                         $schema: 'http://json-schema.org/draft-07/schema#',
                         type: 'object',
-                        additionalProperties: false,
+                        additionalProperties: true,
                         required: ['type', 'id', 'agreesTo'],
                         properties: {
                           type: {
