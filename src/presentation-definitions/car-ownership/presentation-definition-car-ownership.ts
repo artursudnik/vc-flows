@@ -224,13 +224,10 @@ export const presentationDefinitionCarOwnership = {
                         $schema: 'http://json-schema.org/draft-07/schema#',
                         type: 'object',
                         additionalProperties: true,
-                        required: ['type', 'id', 'agreesTo'],
+                        required: ['type', 'agreesTo'],
                         properties: {
                           type: {
                             const: 'ContractParty',
-                          },
-                          id: {
-                            const: 'did:example:subject',
                           },
                           agreesTo: {
                             type: 'object',
