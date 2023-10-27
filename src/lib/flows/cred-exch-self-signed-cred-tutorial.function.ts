@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { axiosInstance } from './axios-instance';
+import { axiosInstance } from '../axios-instance';
 
 export async function credExchSelfSignedCredTutorial(options: {
   presentationDefinition: {
